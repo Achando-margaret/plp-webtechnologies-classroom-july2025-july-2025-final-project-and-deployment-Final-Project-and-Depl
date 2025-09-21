@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyGenerators - Discover Amazing Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">TastyGenerators</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="browse.html" class="nav-link">Browse</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button class="nav-btn" id="theme-toggle">Dark Mode</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover & Create Delicious Recipes</h1>
+            <p>Find your next favorite meal with our AI-powered recipe generator</p>
+        </div>
+    </section>
+
+    <!-- Featured Recipes -->
+    <section class="featured-recipes">
+        <div class="container">
+            <h2>Featured Recipes</h2>
+            <div class="recipes-grid" id="featured-recipes">
+                <!-- Recipes will be loaded dynamically with JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <h3>Search Recipes</h3>
+                    <p>Find recipes by ingredient, cuisine, or diet</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <h3>Save Favorites</h3>
+                    <p>Bookmark recipes you love for later</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <h3>Generate New Ideas</h3>
+                    <p>Get custom recipe suggestions based on your preferences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Get Weekly Recipe Inspiration</h2>
+            <p>Subscribe to our newsletter for new recipes every week</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TastyGenerators</h3>
+                    <p>Discover, create, and share amazing recipes with our AI-powered platform.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse Recipes</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TastyGenerators. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/recipe-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
